@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Material Theme Ocean",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "editor.inlineSuggest.enabled": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "editor.fontFamily": "MonoLisa, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+}
