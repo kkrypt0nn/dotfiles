@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Material Theme Ocean",
+    "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "editor.inlineSuggest.enabled": true,
     "gitlens.codeLens.enabled": false,
@@ -19,4 +19,5 @@
     "[python]": {
         "editor.formatOnType": true
     },
+    "go.toolsManagement.autoUpdate": true,
 }
