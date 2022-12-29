@@ -8,16 +8,21 @@
     "editor.fontSize": 16,
     "editor.fontLigatures": true,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-    "github.copilot.enable": {
-        "*": true,
-        "yaml": true,
-        "plaintext": true,
-        "markdown": true
-    },
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "[python]": {
         "editor.formatOnType": true
     },
     "go.toolsManagement.autoUpdate": true,
+    "window.commandCenter": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "discord.removeRemoteRepository": true,
+    "[scss]": {
+        "editor.defaultFormatter": "Wscats.eno"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
 }
