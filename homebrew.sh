@@ -21,6 +21,7 @@ brew upgrade
 
 ## 1337 stuff
 brew install hashcat
+brew install hexedit
 brew install john
 brew install nmap
 brew install radare2
@@ -28,12 +29,12 @@ brew install radare2
 brew install --cask burp-suite
 brew install --cask cutter
 brew install --cask ghidra
-brew install --cask utm # Virtual machine w/ Linux
+brew install --cask utm # Virtual machine w/ Linux & Windows
 brew install --cask wireshark
 
 ## Programming stuff
 brew install angular-cli
-brew install go
+brew install go # The only and real programming language, change my mind.
 brew install hexo
 brew install kotlin
 brew install lua
@@ -46,6 +47,7 @@ brew install --cask docker
 brew install --cask figma
 brew install --cask flutter
 brew install --cask github
+brew install --cask temurin
 
 ## Documenting things
 brew install mkdocs
@@ -57,7 +59,8 @@ brew install --cask visual-studio-code
 
 ## Communication
 brew install --cask discord
-brew install --cask microsoft-teams
+brew install --cask microsoft-teams # Yes, people still use that these days..
+brew install --cask threema
 brew install --cask whatsapp
 
 ## Random stuff
@@ -74,3 +77,5 @@ brew install --cask minecraft
 brew install --cask obs
 brew install --cask spotify
 brew install --cask steam
+brew install --cask the-unarchiver
+brew install --cask vlc
