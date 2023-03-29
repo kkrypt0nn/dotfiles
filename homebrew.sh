@@ -72,7 +72,6 @@ brew install wget
 brew install --cask android-file-transfer
 brew install --cask font-jetbrains-mono-nerd-font
 brew install --cask gimp
-brew install --cask microsoft-edge # What you gonna do? Use Chrome?
 brew install --cask minecraft
 brew install --cask obs
 brew install --cask spotify
