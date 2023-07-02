@@ -1,6 +1,5 @@
 {
     "workbench.colorTheme": "Catppuccin Mocha",
-    "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "editor.inlineSuggest.enabled": true,
     "gitlens.codeLens.enabled": false,
     "gitlens.hovers.enabled": false,
@@ -42,4 +41,5 @@
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "workbench.iconTheme": "catppuccin-mocha",
 }
