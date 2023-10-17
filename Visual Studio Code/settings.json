@@ -1,11 +1,12 @@
 {
-    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
     "editor.inlineSuggest.enabled": true,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.hovers.enabled": false,
-    "editor.fontFamily": "MonoLisa, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 16,
+    "git.openRepositoryInParentFolders": "never",
+    "editor.fontFamily": "MonoLisa, 'JetBrains Mono', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 18,
     "editor.fontLigatures": true,
+    "editor.tabSize": 2,
+    "editor.fontWeight": 600,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -16,7 +17,7 @@
     "go.toolsManagement.autoUpdate": true,
     "window.commandCenter": true,
     "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "discord.removeRemoteRepository": true,
     "[scss]": {
@@ -40,6 +41,5 @@
     },
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "workbench.iconTheme": "catppuccin-mocha",
+    }
 }
