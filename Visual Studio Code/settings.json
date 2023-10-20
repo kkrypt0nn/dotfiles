@@ -41,5 +41,14 @@
     },
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "todo-tree.highlights.defaultHighlight": {
+      "background": "#8EC07C",
+      "foreground": "#171721"
+    },
+    "rust-analyzer.hover.actions.references.enable": true,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "rust-analyzer.inlayHints.renderColons": false,
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false
 }
