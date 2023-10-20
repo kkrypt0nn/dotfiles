@@ -44,7 +44,7 @@
     },
     "todo-tree.highlights.defaultHighlight": {
       "background": "#8EC07C",
-      "foreground": "#171721"
+      "foreground": "#32302F"
     },
     "rust-analyzer.hover.actions.references.enable": true,
     "rust-analyzer.inlayHints.parameterHints.enable": false,
