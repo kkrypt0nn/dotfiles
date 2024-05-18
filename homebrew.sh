@@ -42,12 +42,12 @@ brew install mysql
 brew install node
 brew install openjdk
 brew install python
+brew install rust
 
 brew install --cask docker
 brew install --cask figma
 brew install --cask flutter
 brew install --cask github
-brew install --cask temurin
 
 ## Documenting things
 brew install mkdocs
@@ -59,7 +59,6 @@ brew install --cask visual-studio-code
 
 ## Communication
 brew install --cask discord
-brew install --cask microsoft-teams # Yes, people still use that these days..
 brew install --cask threema
 brew install --cask whatsapp
 
