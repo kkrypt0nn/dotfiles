@@ -1,4 +1,9 @@
-eval "$(starship init zsh)"
+fpath+=("$(brew --prefix)/share/zsh/site-functions")
+
+autoload -U promptinit; promptinit
+prompt pure
+
+PROMPT='🕙 %D{%K:%M:%S} '$PROMPT
 
 alias uu='brew update && brew upgrade'
 alias uuc='brew update && brew upgrade && brew cleanup'

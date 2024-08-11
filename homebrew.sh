@@ -64,7 +64,7 @@ brew install --cask whatsapp
 
 ## Random stuff
 brew install neofetch
-brew install starship
+brew install pure
 brew install tree
 brew install wget
 
