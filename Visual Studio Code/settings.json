@@ -1,56 +1,56 @@
 {
-    "workbench.colorTheme": "Gruvbox Dark Hard",
-    "editor.inlineSuggest.enabled": true,
-    "git.openRepositoryInParentFolders": "never",
-    "editor.fontFamily": "MonoLisa, 'JetBrains Mono', Consolas, 'Courier New', monospace",
-    "editor.fontSize": 18,
-    "editor.fontLigatures": true,
-    "editor.tabSize": 2,
-    "editor.fontWeight": 600,
-    "editor.formatOnSave": true,
-    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "[python]": {
-        "editor.formatOnType": true,
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "go.toolsManagement.autoUpdate": true,
-    "window.commandCenter": true,
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "discord.removeRemoteRepository": true,
-    "[scss]": {
-        "editor.defaultFormatter": "Wscats.eno"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "todo-tree.highlights.defaultHighlight": {
-      "background": "#8EC07C",
-      "foreground": "#32302F"
-    },
-    "rust-analyzer.hover.actions.references.enable": true,
-    "rust-analyzer.inlayHints.parameterHints.enable": false,
-    "rust-analyzer.inlayHints.typeHints.enable": false,
-    "rust-analyzer.inlayHints.renderColons": false,
-    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
-    "rust-analyzer.inlayHints.chainingHints.enable": false
+  "editor.inlineSuggest.enabled": true,
+  "git.openRepositoryInParentFolders": "never",
+  "editor.fontFamily": "MonoLisa, 'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 18,
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.fontWeight": 600,
+  "editor.formatOnSave": true,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "window.commandCenter": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "todo-tree.highlights.defaultHighlight": {
+    "background": "#8EC07C",
+    "foreground": "#32302F"
+  },
+  "rust-analyzer.hover.actions.references.enable": true,
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.inlayHints.renderColons": false,
+  "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "discord.removeRemoteRepository": true,
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "workbench.colorTheme": "Kanagawa Dragon"
 }
