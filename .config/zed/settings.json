@@ -7,6 +7,12 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "assistant": {
+    "version": "2",
+    "enabled": false,
+    "button": false,
+    "show_hints": false
+  },
   "features": {
     "inline_completion_provider": "none"
   },
@@ -22,5 +28,13 @@
   "buffer_font_size": 16,
   "buffer_font_features": {
     "liga": true
+  },
+  "lsp": {
+    "rust-analyzer": {
+      "binary": {
+        "path": "/Users/krypton/.cargo/bin/rust-analyzer",
+        "args": []
+      }
+    }
   }
 }
