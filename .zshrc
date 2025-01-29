@@ -17,8 +17,8 @@ alias pgstart='brew services start postgresql@16'
 alias pgstop='brew services stop postgresql@16'
 alias sioff='sudo mdutil -i off'
 alias sion='sudo mdutil -i on'
-alias alpine='docker run --rm -it alpine-tools sh'
-alias alpine-copy='docker run --rm -v .:/data -it alpine-tools sh'
+alias alpine='docker run --rm -it kkrypt0nn/alpine-tools sh'
+alias alpine-copy='docker run --rm -v .:/data -it kkrypt0nn/alpine-tools sh'
 
 export HOMEBREW_NO_ENV_HINTS=1
 export PATH=$PATH:/Users/krypton/go/bin:/Users/krypton/.cargo/bin
