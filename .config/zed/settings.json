@@ -7,14 +7,9 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "assistant": {
-    "version": "2",
-    "enabled": false,
-    "button": false,
-    "show_hints": false
-  },
+  "disable_ai": true,
   "features": {
-    "inline_completion_provider": "none"
+    "edit_prediction_provider": "none"
   },
   "telemetry": {
     "diagnostics": false,
@@ -25,7 +20,8 @@
   "ui_font_family": "MonoLisa",
   "ui_font_size": 16,
   "buffer_font_family": "MonoLisa",
-  "buffer_font_size": 16,
+  "buffer_font_size": 16.0,
+  "buffer_font_weight": 500,
   "buffer_font_features": {
     "liga": true
   },
@@ -35,6 +31,14 @@
         "path": "/Users/krypton/.cargo/bin/rust-analyzer",
         "args": []
       }
+    },
+    "pylsp": {}
+  },
+  "languages": {
+    "Python": {
+      "language_servers": ["pyright", "ruff"],
+      "format_on_save": "on",
+      "formatter": { "external": { "command": "black", "arguments": ["-"] } }
     }
   }
 }
