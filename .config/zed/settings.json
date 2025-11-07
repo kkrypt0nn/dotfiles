@@ -7,6 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "icon_theme": "JetBrains New UI Icons (Dark)",
   "disable_ai": true,
   "features": {
     "edit_prediction_provider": "none"
@@ -17,19 +18,46 @@
   },
   "base_keymap": "JetBrains",
   "theme": "Kanagawa Dragon",
+  "theme_overrides": {
+    "Kanagawa Dragon": {
+      "syntax": {
+        "constant.comment.todo": {
+          "color": "#FFFFFF",
+          "background_color": "#8EC07C"
+        },
+        "constant.comment.todo.text": {},
+        "string.comment.info": {
+          "color": "#FFFFFF",
+          "background_color": "#549C96"
+        },
+        "string.comment.info.text": {},
+        "keyword.comment.warn": {
+          "color": "#FFFFFF",
+          "background_color": "#C2A24C"
+        },
+        "keyword.comment.warn.text": {},
+        "property.comment.error": {
+          "color": "#FFFFFF",
+          "background_color": "#C24C4C"
+        },
+        "property.comment.error.text": {},
+        "emphasis.comment.user": {},
+        "emphasis.comment.user.text": {}
+      }
+    }
+  },
   "ui_font_family": "MonoLisa",
   "ui_font_size": 16,
   "buffer_font_family": "MonoLisa",
   "buffer_font_size": 16.0,
-  "buffer_font_weight": 500,
+  "buffer_font_weight": 700,
   "buffer_font_features": {
     "liga": true
   },
   "lsp": {
     "rust-analyzer": {
       "binary": {
-        "path": "/Users/krypton/.cargo/bin/rust-analyzer",
-        "args": []
+        "path": "/Users/krypton/.cargo/bin/rust-analyzer"
       }
     },
     "pylsp": {}
