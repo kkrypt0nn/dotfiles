@@ -25,24 +25,39 @@
           "color": "#FFFFFF",
           "background_color": "#8EC07C"
         },
-        "constant.comment.todo.text": {},
+        "constant.comment.todo.text": {
+          "color": "#7A8382",
+          "font_style": "italic"
+        },
         "string.comment.info": {
           "color": "#FFFFFF",
           "background_color": "#549C96"
         },
-        "string.comment.info.text": {},
+        "string.comment.info.text": {
+          "color": "#7A8382",
+          "font_style": "italic"
+        },
         "keyword.comment.warn": {
           "color": "#FFFFFF",
           "background_color": "#C2A24C"
         },
-        "keyword.comment.warn.text": {},
+        "keyword.comment.warn.text": {
+          "color": "#7A8382",
+          "font_style": "italic"
+        },
         "property.comment.error": {
           "color": "#FFFFFF",
           "background_color": "#C24C4C"
         },
-        "property.comment.error.text": {},
+        "property.comment.error.text": {
+          "color": "#7A8382",
+          "font_style": "italic"
+        },
         "emphasis.comment.user": {},
-        "emphasis.comment.user.text": {}
+        "emphasis.comment.user.text": {
+          "color": "#7A8382",
+          "font_style": "italic"
+        }
       }
     }
   },
