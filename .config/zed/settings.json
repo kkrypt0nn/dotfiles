@@ -10,11 +10,11 @@
   "icon_theme": "JetBrains New UI Icons (Dark)",
   "disable_ai": true,
   "features": {
-    "edit_prediction_provider": "none"
+    "edit_prediction_provider": "none",
   },
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "base_keymap": "JetBrains",
   "theme": "Kanagawa Dragon",
@@ -23,43 +23,63 @@
       "syntax": {
         "constant.comment.todo": {
           "color": "#FFFFFF",
-          "background_color": "#8EC07C"
+          "background_color": "#8EC07C",
         },
         "constant.comment.todo.text": {
           "color": "#7A8382",
-          "font_style": "italic"
+          "font_style": "italic",
+        },
+        "constant.comment.todo.prefix": {
+          "color": "#7A8382",
+          "font_style": "italic",
         },
         "string.comment.info": {
           "color": "#FFFFFF",
-          "background_color": "#549C96"
+          "background_color": "#549C96",
         },
         "string.comment.info.text": {
           "color": "#7A8382",
-          "font_style": "italic"
+          "font_style": "italic",
+        },
+        "string.comment.info.prefix": {
+          "color": "#7A8382",
+          "font_style": "italic",
         },
         "keyword.comment.warn": {
           "color": "#FFFFFF",
-          "background_color": "#C2A24C"
+          "background_color": "#C2A24C",
         },
         "keyword.comment.warn.text": {
           "color": "#7A8382",
-          "font_style": "italic"
+          "font_style": "italic",
+        },
+        "keyword.comment.warn.prefix": {
+          "color": "#7A8382",
+          "font_style": "italic",
         },
         "property.comment.error": {
           "color": "#FFFFFF",
-          "background_color": "#C24C4C"
+          "background_color": "#C24C4C",
         },
         "property.comment.error.text": {
           "color": "#7A8382",
-          "font_style": "italic"
+          "font_style": "italic",
+        },
+        "property.comment.error.prefix": {
+          "color": "#7A8382",
+          "font_style": "italic",
         },
         "emphasis.comment.user": {},
         "emphasis.comment.user.text": {
           "color": "#7A8382",
-          "font_style": "italic"
-        }
-      }
-    }
+          "font_style": "italic",
+        },
+        "emphasis.comment.user.prefix": {
+          "color": "#7A8382",
+          "font_style": "italic",
+        },
+      },
+    },
   },
   "ui_font_family": "MonoLisa",
   "ui_font_size": 16,
@@ -67,21 +87,21 @@
   "buffer_font_size": 16.0,
   "buffer_font_weight": 700,
   "buffer_font_features": {
-    "liga": true
+    "liga": true,
   },
   "lsp": {
     "rust-analyzer": {
       "binary": {
-        "path": "/Users/krypton/.cargo/bin/rust-analyzer"
-      }
+        "path": "/Users/krypton/.cargo/bin/rust-analyzer",
+      },
     },
-    "pylsp": {}
+    "pylsp": {},
   },
   "languages": {
     "Python": {
       "language_servers": ["pyright", "ruff"],
       "format_on_save": "on",
-      "formatter": { "external": { "command": "black", "arguments": ["-"] } }
-    }
-  }
+      "formatter": { "external": { "command": "black", "arguments": ["-"] } },
+    },
+  },
 }
