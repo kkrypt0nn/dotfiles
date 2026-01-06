@@ -1,0 +1,97 @@
+views:
+  cert-manager.io/v1/certificates:
+    sortColumn: NAMESPACE:asc
+    columns:
+      - NAMESPACE
+      - NAME
+      - READY
+      - STATUS
+      - RENEW AT:.status.renewalTime
+      - SECRET|W
+      - ISSUER|W
+      - AGE
+  apps/v1/deployments:
+    sortColumn: NAMESPACE:asc
+    columns:
+      - NAMESPACE
+      - NAME
+      - READY
+      - CPU0:.spec.template.spec.containers[0].resources.requests.cpu
+      - MEM0:.spec.template.spec.containers[0].resources.requests.memory
+      - UP-TO-DATE
+      - AVAILABLE
+      - AGE
+  v1/nodes:
+    sortColumn: NAME:asc
+    columns:
+      - NAME
+      - STATUS
+      - ROLE:.metadata.labels.role
+      - IP:.status.addresses[0].address
+      - TAINTS
+      - VERSION
+      - TOPOLOGY ZONE:.metadata.labels.topology\.kubernetes\.io/zone
+      - PODS
+      - CPU
+      - CPU/A
+      - "%CPU|W"
+      - MEM
+      - MEM/A
+      - "%MEM|W"
+      - AGE
+      - ROLE|W
+      - GPU/A|W
+      - GPU/C|W
+      - SH-GPU/A|W
+      - SH-GPU/C|W
+  v1/persistentvolumes:
+    sortColumn: NAME:asc
+    columns:
+      - NAME
+      - CAPACITY
+      - TOPOLOGY ZONE:.spec.nodeAffinity.required.nodeSelectorTerms[0].matchExpressions[?(@.key=="topology.disk.csi.azure.com/zone")].values[0]
+      - ACCESS MODES|W
+      - RECLAIM POLICY
+      - STATUS
+      - CLAIM
+      - STORAGECLASS
+      - REASON|W
+      - AGE
+  v1/pods:
+    sortColumn: NAMESPACE:asc
+    columns:
+      - NAMESPACE
+      - NAME
+      - RESTARTS
+      - READY
+      - STATUS
+      - CRITICAL:.spec.tolerations[?(@.key=="CriticalAddonsOnly")].key
+      - MEM
+      - "%MEM/R|W"
+      - "%MEM/L|W"
+      - MEM/RL|S
+      - CPU
+      - "%CPU/R|W"
+      - "%CPU/L|W"
+      - CPU/RL|S
+      - IP
+      - AGE
+      - NODE|W
+      - PF|W
+  rabbitmq.com/v1beta1/rabbitmqclusters:
+    sortColumn: NAMESPACE:asc
+    columns:
+      - NAMESPACE
+      - NAME
+      - IMAGE:.spec.image
+      - ALLREPLICASREADY
+      - RECONCILESUCCESS
+      - AGE
+  v1/serviceaccounts:
+    sortColumn: NAMESPACE:asc
+    columns:
+      - NAMESPACE
+      - NAME
+      - WORKLOAD ID:.metadata.annotations.azure\.workload\.identity/client-id
+      - SECRET
+      - AGE
