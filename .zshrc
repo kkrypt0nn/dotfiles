@@ -5,6 +5,7 @@ prompt pure
 
 PROMPT='🕙 %D{%H:%M:%S} '$PROMPT
 
+alias recaf='java -jar /usr/local/bin/recaf-4x-alpha-mac-aarch.jar'
 alias k='kubectl'
 alias uu='brew update && brew upgrade'
 alias uuc='brew update && brew upgrade && brew cleanup'
