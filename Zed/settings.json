@@ -1,107 +1,141 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run the `open default settings` command
-// from the command palette or from `Zed` application menu.
 {
-  "icon_theme": "JetBrains New UI Icons (Dark)",
-  "disable_ai": true,
-  "features": {
-    "edit_prediction_provider": "none",
-  },
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false,
-  },
-  "base_keymap": "JetBrains",
-  "theme": "Kanagawa Dragon",
-  "theme_overrides": {
-    "Kanagawa Dragon": {
-      "syntax": {
-        "constant.comment.todo": {
-          "color": "#FFFFFF",
-          "background_color": "#8EC07C",
-        },
-        "constant.comment.todo.text": {
-          "color": "#7A8382",
-          "font_style": "italic",
-        },
-        "constant.comment.todo.prefix": {
-          "color": "#7A8382",
-          "font_style": "italic",
-        },
-        "string.comment.info": {
-          "color": "#FFFFFF",
-          "background_color": "#549C96",
-        },
-        "string.comment.info.text": {
-          "color": "#7A8382",
-          "font_style": "italic",
-        },
-        "string.comment.info.prefix": {
-          "color": "#7A8382",
-          "font_style": "italic",
-        },
-        "keyword.comment.warn": {
-          "color": "#FFFFFF",
-          "background_color": "#C2A24C",
-        },
-        "keyword.comment.warn.text": {
-          "color": "#7A8382",
-          "font_style": "italic",
-        },
-        "keyword.comment.warn.prefix": {
-          "color": "#7A8382",
-          "font_style": "italic",
-        },
-        "property.comment.error": {
-          "color": "#FFFFFF",
-          "background_color": "#C24C4C",
-        },
-        "property.comment.error.text": {
-          "color": "#7A8382",
-          "font_style": "italic",
-        },
-        "property.comment.error.prefix": {
-          "color": "#7A8382",
-          "font_style": "italic",
-        },
-        "emphasis.comment.user": {},
-        "emphasis.comment.user.text": {
-          "color": "#7A8382",
-          "font_style": "italic",
-        },
-        "emphasis.comment.user.prefix": {
-          "color": "#7A8382",
-          "font_style": "italic",
-        },
-      },
+    "autosave": "on_focus_change",
+    "base_keymap": "JetBrains",
+    "buffer_font_family": "MonoLisa",
+    "buffer_font_features": {
+        "liga": true,
     },
-  },
-  "ui_font_family": "MonoLisa",
-  "ui_font_size": 16,
-  "buffer_font_family": "MonoLisa",
-  "buffer_font_size": 16.0,
-  "buffer_font_weight": 700,
-  "buffer_font_features": {
-    "liga": true,
-  },
-  "lsp": {
-    "rust-analyzer": {
-      "binary": {
-        "path": "/Users/krypton/.cargo/bin/rust-analyzer",
-      },
+    "buffer_font_size": 16.0,
+    "buffer_font_weight": 700,
+    "cli_default_open_behavior": "new_window",
+    "collaboration_panel": {
+        "dock": "left",
     },
-    "pylsp": {},
-  },
-  "languages": {
-    "Python": {
-      "language_servers": ["pyright", "ruff"],
-      "format_on_save": "on",
-      "formatter": { "external": { "command": "black", "arguments": ["-"] } },
+    "colorize_brackets": true,
+    "disable_ai": true,
+    "git_panel": {
+        "dock": "left",
+        "status_style": "label_color",
+        "tree_view": true,
+        "collapse_untracked_diff": false,
     },
-  },
+    "icon_theme": {
+        "mode": "light",
+        "light": "JetBrains New UI Icons (Dark)",
+        "dark": "JetBrains New UI Icons (Dark)",
+    },
+    "languages": {
+        "YAML": {
+            "format_on_save": "off",
+        },
+        "Python": {
+            "language_servers": ["pyright", "ruff"],
+            "format_on_save": "on",
+            "formatter": {
+                "external": { "command": "black", "arguments": ["-"] },
+            },
+        },
+    },
+    "lsp": {
+        "gopls": {
+            "initialization_options": {
+                "buildFlags": [
+                    "-tags=all_sink,azure_sink,disk_sink,gcs_sink,s3_sink,sftp_sink,mage",
+                ],
+            },
+        },
+        "pylsp": {},
+        "rust-analyzer": {
+            "binary": {
+                "path": "/Users/krypton/.cargo/bin/rust-analyzer",
+            },
+        },
+    },
+    "minimap": {
+        "thumb": "always",
+        "max_width_columns": 90,
+        "display_in": "all_editors",
+        "show": "always",
+    },
+    "outline_panel": {
+        "dock": "left",
+    },
+    "project_panel": {
+        "dock": "left",
+    },
+    "tab_size": 4,
+    "telemetry": {
+        "diagnostics": false,
+        "metrics": false,
+    },
+    "theme": {
+        "mode": "dark",
+        "light": "One Light",
+        "dark": "Kanagawa Dragon - No Italics",
+    },
+    "theme_overrides": {
+        "Kanagawa Dragon": {
+            "syntax": {
+                "constant.comment.todo": {
+                    "color": "#FFFFFF",
+                    "background_color": "#8EC07C",
+                },
+                "constant.comment.todo.text": {
+                    "color": "#7A8382",
+                    "font_style": "italic",
+                },
+                "constant.comment.todo.prefix": {
+                    "color": "#7A8382",
+                    "font_style": "italic",
+                },
+                "string.comment.info": {
+                    "color": "#FFFFFF",
+                    "background_color": "#549C96",
+                },
+                "string.comment.info.text": {
+                    "color": "#7A8382",
+                    "font_style": "italic",
+                },
+                "string.comment.info.prefix": {
+                    "color": "#7A8382",
+                    "font_style": "italic",
+                },
+                "keyword.comment.warn": {
+                    "color": "#FFFFFF",
+                    "background_color": "#C2A24C",
+                },
+                "keyword.comment.warn.text": {
+                    "color": "#7A8382",
+                    "font_style": "italic",
+                },
+                "keyword.comment.warn.prefix": {
+                    "color": "#7A8382",
+                    "font_style": "italic",
+                },
+                "property.comment.error": {
+                    "color": "#FFFFFF",
+                    "background_color": "#C24C4C",
+                },
+                "property.comment.error.text": {
+                    "color": "#7A8382",
+                    "font_style": "italic",
+                },
+                "property.comment.error.prefix": {
+                    "color": "#7A8382",
+                    "font_style": "italic",
+                },
+                "emphasis.comment.user": {},
+                "emphasis.comment.user.text": {
+                    "color": "#7A8382",
+                    "font_style": "italic",
+                },
+                "emphasis.comment.user.prefix": {
+                    "color": "#7A8382",
+                    "font_style": "italic",
+                },
+            },
+        },
+    },
+    "ui_font_family": "MonoLisa",
+    "ui_font_size": 16,
 }
